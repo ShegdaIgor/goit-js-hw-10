@@ -26,8 +26,13 @@ body {
 }
 
 .country-list__img {
-  margin-right: 8px;
-  width: 196px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+}
+
+.country-list__item {
+  display: flex;
 }
 
 .country-list__text {
@@ -35,14 +40,22 @@ body {
   align-items: center;
   font-size: 15px;
   font-weight: 500;
+  margin-top: 0;
 }
 
 .country-info-list__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -44px;
+  margin-left: 50px;
   display: block;
-  font-size: 20px;
-  font-weight: 600;
 }
 
 .country-info-list__img {
-  width: 196px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.country-info-list__description {
+  font-size: 20px;
 }
